@@ -1,0 +1,183 @@
+.app {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; /* Align items to the top */
+  flex-wrap: wrap;
+}
+
+.calendar-container {
+  width: 200px; /* Adjust width as needed */
+  margin-left: 2rem;
+}
+
+.myform {
+  display: flex;
+  padding: 2rem;
+  flex-direction: column;
+  justify-content: left;
+  position: absolute;
+  top: 22rem;
+  left: 39rem;
+}
+.p1 {
+  margin: 0.3rem;
+}
+.myform label,
+.myform2 label {
+  margin-bottom: 1.5rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.myform input,
+.myform2 input {
+  padding: 0.5rem;
+  border: 2px solid #cccccc5c;
+  border-radius: 50px;
+  margin: 0.3rem;
+}
+
+.myform2 {
+  display: flex;
+  padding: 2rem;
+  flex-direction: column;
+  justify-content: left;
+  position: absolute;
+  top: 16rem;
+  left: 39rem;
+}
+
+.myform2 label {
+  margin-bottom: 0.5rem;
+}
+
+.myform2 select {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.sub-btn:hover {
+  background-color: black;
+}
+.sub-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  margin-top: 8.5rem;
+  border-radius: 100px;
+  width: 80%;
+  font-size: 1rem;
+  margin-left: 4.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.time-position {
+  color: #007bff;
+  margin-top: -2rem;
+  margin-right: 29rem;
+  max-width: 7.1%;
+}
+.time-position button {
+  color: white;
+  width: 115%;
+  padding: 0.3rem;
+  border-radius: 10px;
+}
+.react-calendar {
+  min-width: 90vh;
+  background-color: #a7a6aa;
+  color: white;
+  border-radius: 8px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.orders-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  color: black;
+  background-color: white;
+  gap: 2rem;
+}
+.orders-table-container {
+  border: 1px solid black;
+  width: 100%;
+  margin-top: 1rem;
+}
+.orders-table th,
+.orders-table th {
+  background-color: rgba(0, 255, 128, 0.438);
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+/* Style for the table cells */
+.orders-table td,
+.orders-table td {
+  left: 10rem;
+  vertical-align: middle;
+  border: 1px solid black;
+  text-align: center;
+  padding: 2px;
+}
+.orders-table tr,
+.orders-table tr {
+  vertical-align: middle;
+  border: 1px solid black;
+  text-align: center;
+  padding: 2px;
+}
+.orders-table th:not(:last-child),
+.orders-table th:not(:last-child),
+.orders-table th:not(:last-child),
+.orders-table td:not(:last-child) {
+  padding-right: 10px;
+  border: 1px solid black;
+  text-align: center;
+}
+.orderh1 {
+  font-size: 1.4rem;
+  /* justify-content: center;
+  text-align: center; */
+  margin-left: 2rem;
+  margin-top: 1.2rem;
+}
+.orderp {
+  margin-left: 2rem;
+  margin-right: 45rem;
+  font-size: 1.2rem;
+  margin-top: 1.3rem;
+  margin-bottom: 1.3rem;
+}
+.error-message {
+  text-align: center;
+  margin-left: 6rem;
+  margin-top: 1.2rem;
+}
+
+.paypal {
+  display: block;
+  margin-right: 17rem;
+  margin-left: 1.3rem;
+  margin-top: 1.2rem;
+  position: sticky;
+}
+.paypal-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 100px;
+  width: 80%;
+  font-size: 1rem;
+  margin-top: 1.2rem;
+  margin-left: 1.3rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.paypal-btn:hover {
+  background-color: black;
+}

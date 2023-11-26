@@ -1,0 +1,95 @@
+/* Styling for the background image */
+.loginbackgroundImage {
+  background-image: url('../images/img1.jpg'); /* Set background image URL */
+  border: solid; /* Add border */
+  min-width: 218vh; /* Set minimum width */
+  min-height: 100vh; /* Set minimum height */
+  background-repeat: no-repeat; /* Prevent background image from repeating */
+  background-position: center; /* Center the background image */
+}
+
+/* Styling for the login container */
+.loginContainer {
+  display: flex; /* Display as flex container */
+  justify-content: center; /* Center content horizontally */
+  margin-left: 35rem; /* Left margin */
+  margin-top: 5rem; /* Top margin */
+  align-items: center; /* Center content vertically */
+  text-align: center; /* Center text within the container */
+  min-height: 70vh; /* Set minimum height */
+  width: 27%; /* Set width */
+  border-radius: 3rem; /* Add border radius for rounded corners */
+}
+
+/* Styling for the login form */
+.loginform {
+  display: flex; /* Display as flex container */
+  flex-direction: column; /* Arrange items in a column */
+  justify-content: center; /* Center content vertically */
+  text-align: center; /* Center text within the container */
+  align-items: center; /* Center content horizontally */
+  gap: 1rem; /* Set spacing between child elements */
+}
+
+/* Styling for login input labels */
+.logininput label {
+  font-size: 1rem; /* Set font size */
+  color: white; /* Set text color */
+}
+
+/* Styling for login form header */
+.loginform h1 {
+  color: white; /* Set header text color */
+  margin-bottom: 4rem; /* Bottom margin */
+}
+
+/* Styling for login input fields */
+.logininput {
+  width: 100%; /* Set input width to 100% */
+  margin-right: 3rem; /* Right margin */
+  border-radius: 5.625rem; /* Add border radius for rounded input fields */
+}
+
+/* Styling for the login button on hover */
+.loginbutton:hover {
+  background-color: navy; /* Background color on hover */
+  transition: 0.3s;
+  transform: scale(1.15);
+}
+
+/* Styling for the login button */
+.loginbutton {
+  background-color: #007bff; /* Background color */
+  font-size: 0.8rem; /* Set font size */
+  color: white; /* Text color */
+  border: none; /* Remove border */
+  font-size: 1.1rem; /* Set font size */
+  margin-top: 1rem; /* Top margin */
+  border-radius: 100px; /* Add border radius for rounded button */
+  width: 50%; /* Set button width */
+  cursor: pointer; /* Cursor style */
+  transition: background-color 0.3s ease; /* Transition effect for background color */
+}
+
+/* Styling for login error messages */
+.lierrmessage {
+  font-weight: bold; /* Set font weight to bold */
+}
+
+/* Styling for login links */
+.loginlink {
+  color: black; /* Text color with transparency */
+  font-size: 0.9rem; /* Set font size */
+}
+
+/* Styling for login paragraphs */
+.loginp {
+  margin: 0.31rem; /* Margin around paragraphs */
+  font-size: 0.9rem; /* Set font size */
+  color: white;
+}
+
+/* Styling for the login footer */
+.loginfooter {
+  margin-right: 50rem; /* Right margin */
+}

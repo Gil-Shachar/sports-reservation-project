@@ -1,0 +1,115 @@
+/* Style for the form container */
+.contactform {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.contactform label,
+.contactform input,
+.contactform textarea,
+.contactform button {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Style for the text inputs */
+.contactform input[type='text'] {
+  width: 15%;
+  padding: 6px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+.contactform textarea {
+  width: 27%;
+  height: 200px; /* Adjust the desired height */
+  padding: 30px;
+  border: 1px solid black;
+  line-height: 1.5; /* Adjust line height for better readability */
+  resize: vertical;
+}
+
+/* Style for the submit button */
+.contactform button[type='submit'] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contactform button[type='submit']:hover {
+  background-color: #0056b3;
+}
+
+/* Style for the table container */
+.tablediv {
+  overflow-x: auto;
+}
+
+/* Style for the table */
+.contactustable {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+.tr {
+  border: 1px solid black;
+}
+.contactustable th,
+.contactustable td {
+  padding: 8px;
+  text-align: left;
+  border: 1px solid black;
+}
+
+/* Responsive table style for smaller screens */
+@media screen and (max-width: 600px) {
+  .contact-us-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  .contactustable th,
+  .contactustable td {
+    border: 1px solid #ddd;
+    padding: 5px;
+    text-align: left;
+  }
+}
+/* Styling for main heading */
+.mainheading {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Styling for main paragraph */
+.mainparagraph {
+  font-size: 16px;
+  margin-left: 0.5rem;
+  margin-bottom: 20px;
+}
+
+/* Styling for table heading */
+.tableheading {
+  font-size: 20px;
+  margin-left: 0.5rem;
+  margin-bottom: 10px;
+}
+
+/* Styling for table paragraph */
+.tableparagraph {
+  font-size: 14px;
+  margin-left: 0.5rem;
+  margin-bottom: 20px;
+}
+.deletebutton {
+  background-color: #ff6347;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.deletebutton:hover {
+  background-color: #e05340;
+}

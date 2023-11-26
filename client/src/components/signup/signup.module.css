@@ -1,0 +1,93 @@
+/* Styles for the signup main container */
+.signupmain {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0.5em 0.1rem 0.6rem rgb(0, 0, 0);
+  background-color: rgba(255, 255, 255, 0);
+  box-shadow: 0.8rem 0.9rem 1.1rem rgba(0, 0, 0, 0.949);
+  border: 1rem solid rgba(221, 221, 221, 0.02);
+  padding: 0.5rem;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  min-width: 55vh;
+  border-radius: 30px;
+}
+
+/* Styles for the signup body container */
+.signupbody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 98vh;
+  min-width: 217.3vh;
+  background-color: #00a6ff25;
+}
+
+/* Styles for the signup shadow box */
+.signupshadowBox {
+  border-radius: 30px;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Styles for the signup form container */
+.signupform {
+  color: #007bff;
+  text-align: center;
+  display: flex;
+  font-size: 2rem;
+  flex-direction: column;
+}
+
+/* Styles for input fields in the signup form */
+.signupform input {
+  font-size: 0.8rem;
+  padding: 1.1rem;
+}
+
+/* Styles for common input types like text, number, email, password, and date */
+input[type='text'],
+input[type='number'],
+input[type='email'],
+input[type='password'],
+input[type='date'] {
+  width: 50%;
+  margin: 0.5rem;
+  padding: 0.3rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+/* Styles for the signup button */
+.signupbtn {
+  background-color: #007bff;
+  font-size: 0.8rem;
+  color: white;
+  border: none;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  border-radius: 100px;
+  width: 80%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.signupbtn:hover {
+  background-color: black;
+}
+
+/* Styles for signup links */
+.signuplink {
+  font-size: 0.8rem;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+/* Styles for error messages in the signup form */
+.signuperrMessage {
+  color: black;
+  font-weight: bold;
+  font-size: 1rem;
+}

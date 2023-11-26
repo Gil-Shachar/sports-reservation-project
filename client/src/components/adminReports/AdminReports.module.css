@@ -1,0 +1,66 @@
+.gametypeContainer,
+.courttypeContainer,
+.timerangeContainer {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+
+  max-width: 280vh;
+}
+.barchart {
+  width: 50%; /* Each chart takes up 48% of the container's width */
+  margin: 0.5rem; /* Add margin to create space between the charts */
+  text-align: center;
+  align-items: center;
+  box-shadow: 0.3125rem 0.3125rem 0.625rem rgb(0, 0, 0);
+  background-color: rgba(255, 255, 255, 0);
+  border: 0.3125rem solid rgba(221, 221, 221, 0.02);
+}
+.piechart {
+  width: 30%; /* Each chart takes up 48% of the container's width */
+  margin: 0.5rem; /* Add margin to create space between the charts */
+  text-align: center;
+  align-items: center;
+  box-shadow: 0.3125rem 0.3125rem 0.625rem rgb(0, 0, 0);
+  background-color: rgba(255, 255, 255, 0);
+  border: 0.3125rem solid rgba(221, 221, 221, 0.02);
+}
+.reportsdateinputs {
+  width: 15%;
+  text-align: center;
+  justify-content: center;
+  margin-left: 43rem;
+}
+.reportsdateinputs button {
+  margin-left: -1rem;
+}
+.reportsdateinputs label {
+  font-size: 1rem;
+  margin: 0.5rem;
+}
+
+.reportsdateinputs input {
+  width: 100%;
+  padding: 0.25rem;
+  color: blue;
+  border-radius: 20rem;
+  font-size: 1rem;
+}
+
+.reportsbtn {
+  padding: 0.5rem 1rem;
+  color: white;
+  background-color: #007bff;
+  border-radius: 20rem;
+  cursor: pointer;
+  width: 120%;
+  margin: 1rem;
+}
+.reportsbtn:hover {
+  background-color: black;
+}
+.reportsh1 {
+  text-align: center;
+  margin-left: 4rem;
+  margin-top: 0.5rem;
+}

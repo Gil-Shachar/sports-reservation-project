@@ -1,0 +1,120 @@
+/* Style for the page container */
+.blmaincontainer {
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.BLh1 {
+  text-align: center;
+  color: #006afff5;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0.2rem;
+  margin-top: 0.5rem;
+}
+.BLp1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 0.5rem;
+}
+/* Style for the table containers */
+.bltablecontainer1,
+.bltablecontainer2 {
+  width: 70%;
+  margin-left: 16rem;
+  box-shadow: 0.3125rem 0.3125rem 0.625rem rgb(0, 0, 0);
+  background-color: rgba(255, 255, 255, 0);
+  border: 0.3125rem solid rgba(221, 221, 221, 0.02);
+}
+
+.blh2,
+.blp2 {
+  text-align: center;
+  margin: 0.2rem;
+  margin-top: 0.5rem;
+}
+
+/* Style for the table header */
+.blordertable th,
+.blblocktable th {
+  background-color: rgba(0, 255, 128, 0.438);
+
+  text-align: center;
+}
+
+/* Style for the table cells */
+.blordertable td,
+.blblocktable td {
+  left: 10rem;
+  vertical-align: middle;
+  border: 1px solid black;
+  text-align: center;
+  padding: 2px;
+}
+
+.blordertable tr,
+.blblocktable tr {
+  vertical-align: middle;
+  border: 1px solid black;
+  text-align: center;
+  padding: 2px;
+}
+/* Style for the block button */
+
+.blunblockbutton {
+  background-color: #5dff55;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+.blblockbutton {
+  background-color: #ff5555;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+/* Hover effect for buttons */
+
+.blunblockbutton:hover {
+  background-color: black;
+  transform: scale(1.05);
+}
+.blblockbutton:hover {
+  background-color: black;
+  transform: scale(1.05);
+}
+/* Add spacing between columns */
+.blordertable th:not(:last-child),
+.blordertable th:not(:last-child),
+.blblocktable th:not(:last-child),
+.blblocktable td:not(:last-child) {
+  padding-right: 10px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+/* Style for the table scrollable container */
+.blB_scroller1,
+.blB_scroller2 {
+  max-height: 350px;
+  overflow: auto;
+}
+
+/* Style for the tables */
+.blordertable,
+.blblocktable {
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: fixed;
+}
+.bltablespacing {
+  display: inline-block;
+  width: 50%; /* Adjust the spacing width as needed */
+}

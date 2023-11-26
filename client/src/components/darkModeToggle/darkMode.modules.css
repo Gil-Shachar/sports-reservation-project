@@ -1,0 +1,49 @@
+/* Style for the round slider and its thumb */
+.slider.round {
+  border-radius: 34px; /* Adds rounded corners to the slider track */
+}
+
+.slider.round:before {
+  border-radius: 50%; /* Makes the slider thumb (indicator) circular */
+}
+
+/* Style for the dark mode toggle switch container */
+.dark-mode-toggle {
+  position: fixed; /* Fixes the toggle switch's position on the page */
+  top: 1rem; /* Sets the distance from the top edge */
+  right: 1rem; /* Sets the distance from the right edge */
+  display: flex; /* Uses a flex container for alignment */
+  align-items: center; /* Vertically centers the toggle switch */
+  gap: 0.5rem; /* Adds spacing between the switch and label */
+  font-size: 0.8rem; /* Sets the font size */
+  color: #fff; /* Sets the text color to white */
+}
+
+/* Style for the label of the dark mode toggle switch */
+.dark-mode-toggle label {
+  cursor: pointer; /* Changes the cursor to a pointer on hover */
+}
+
+/* Style for the hidden input checkbox */
+.dark-mode-toggle input[type='checkbox'] {
+  display: none; /* Hides the actual checkbox input */
+}
+
+/* Style for the unchecked state of the toggle switch */
+.dark-mode-toggle input[type='checkbox'] + label:before {
+  content: '\f185'; /* Uses a Font Awesome icon for the unchecked state */
+  font-family: 'Font Awesome 5 Free'; /* Specifies the font family for the icon */
+  font-weight: 900; /* Sets the font weight to bold */
+  font-size: 1.5rem; /* Sets the icon size */
+}
+
+/* Style for the checked state of the toggle switch */
+.dark-mode-toggle input[type='checkbox']:checked + label:before {
+  content: '\f186'; /* Uses a different Font Awesome icon for the checked state */
+}
+
+/* Style for the dark mode theme when active */
+body.dark-mode {
+  background-color: #222 !important; /* Sets the background color to dark gray */
+  color: #fff !important; /* Sets the text color to white */
+}

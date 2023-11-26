@@ -1,0 +1,106 @@
+/* Styling for the JoinTable component */
+.joinTable {
+  position: sticky;
+  width: 100%;
+  height: 100%;
+  border-collapse: collapse;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem; /* Top margin */
+  border-collapse: collapse; /* Collapse borders of table cells */
+}
+.h1 {
+  margin: 1rem;
+}
+.p1 {
+  margin: 1rem;
+}
+/* Styling for the "Join Game" button */
+.joinGame {
+  background-color: green; /* Background color */
+  color: white; /* Text color */
+  padding: 8px 12px; /* Padding around the button text */
+  margin-right: 4px; /* Right margin */
+  font-size: 14px; /* Font size */
+  border-radius: 4px; /* Border radius for rounded corners */
+  cursor: pointer; /* Cursor style */
+}
+
+/* Styling for table header cells */
+.joinTable th {
+  background-color: #111111; /* Background color for table header cells */
+  color: white; /* Text color */
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Styling for table header cells and table cells */
+.joinTable th,
+.joinTable td {
+  border: 1px solid black; /* Border style for table cells */
+
+  text-align: center; /* Text alignment */
+  padding: 8px; /* Padding for table cells */
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Styling for table rows */
+.joinTable tr {
+  border: 1px solid black; /* Border style for table rows */
+
+  text-align: center; /* Text alignment */
+  padding: 2px; /* Padding for table rows */
+}
+
+/* Styling for table body */
+.joinTable tbody {
+  text-align: center; /* Text alignment for table body */
+}
+
+/* Styling for table row hover effect */
+.joinTable tr:hover {
+  background-color: lightgray; /* Background color on hover */
+  transition: 0.3s; /* Smooth transition */
+}
+
+/* Styling for the table scroller (for scrolling) */
+.tableScroller {
+  position: sticky;
+  overflow: auto; /* Enable scrolling */
+  max-height: calc(94.8vh - 200px); /* Maximum height with 200px padding */
+}
+
+/* Styling to keep the table header fixed during scrolling */
+.joinTable thead {
+  position: sticky;
+  top: 0;
+  background-color: #f7f7f7; /* Background color for the fixed header */
+  z-index: 1; /* Ensure it appears above other content */
+}
+
+/* Styling for the "Join Game" button outside the table */
+.gamebtn {
+  background-color: #007bff; /* Background color */
+  color: white; /* Text color */
+  border: none; /* No border */
+  font-size: 0.9rem; /* Font size */
+  margin-top: 1rem; /* Top margin */
+  border-radius: 100px; /* Border radius for rounded corners */
+  width: 10%; /* Button width */
+  cursor: pointer; /* Cursor style */
+  transition: background-color 0.3s ease; /* Transition effect for background color */
+}
+
+/* Styling for the "Join Game" button hover effect */
+.gamebtn:hover {
+  background-color: black; /* Background color on hover */
+}
+
+/* Styling for the "Join Game" button inside the table on hover */
+.joinGame:hover {
+  transform: scale(1.1); /* Increase button size by 10% */
+  transition: 0.2s; /* Smooth transition */
+  background-color: rgb(49, 199, 139); /* Background color on hover */
+}
+.dateRangeContainer {
+  width: 50%;
+}

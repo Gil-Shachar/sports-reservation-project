@@ -1,0 +1,104 @@
+/* Styles for the .concontact_us_body class */
+.concontact_us_body {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  min-height: 88vh;
+}
+/* Styles for the .contable_container class */
+.contable_container {
+  max-height: 80vh; /* Set a fixed max height for the table container */
+  width: 80%;
+  margin: auto;
+  margin-bottom: 5rem;
+  text-align: center;
+  overflow-y: auto; /* Add vertical scrollbar when content exceeds container height */
+  border: 1px solid #ddd; /* Add a border to the table container */
+  background-color: #ffffff04; /* Background color for the table container */
+  padding: 20px; /* Add some padding for spacing */
+}
+/* Styles for the table inside .contable_container */
+.contable_container table {
+  box-shadow: 0.3125rem 0.3125rem 0.625rem rgb(0, 0, 0);
+  border-collapse: collapse; /* Collapse table borders */
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Styles for table headers in .contable_container */
+.contable_container th {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* Styles for table header cells and data cells in .contable_container */
+.contable_container th,
+.contable_container td {
+  border: 1px solid black; /* Change border style for table cells */
+
+  text-align: center;
+  padding: 8px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* Styles for table rows in .contable_container */
+.contable_container tr {
+  border: 1px solid black;
+
+  text-align: center;
+  padding: 2px;
+}
+/* Styles for the tbody inside .contable_container */
+.contable_container tbody {
+  text-align: center;
+}
+/* Styles for textareas inside .contable_container */
+.contable_container textarea {
+  font-size: 0.8rem;
+}
+/* Styles for the .consend_reply_button class */
+.consend_reply_button {
+  background-color: #007bff;
+  color: white;
+  width: 25%;
+  border-radius: 3rem;
+}
+/* Hover styles for .consend_reply_button */
+.consend_reply_button:hover {
+  background-color: black;
+}
+/* Styles for the .conscroller class */
+.conscroller {
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+/* Styles for the .conreplied class */
+.conreplied {
+  color: green; /* Green color for Replied status */
+}
+
+/* Styles for the .condeleteContactBtn class */
+.condeleteContactBtn {
+  background-color: red;
+  color: white;
+  width: 55%;
+  border-radius: 3rem;
+}
+
+/* Hover styles for .condeleteContactBtn */
+.condeleteContactBtn:hover {
+  background-color: black;
+}
+
+/* Styles for the .not_replied class */
+.not_replied {
+  color: red;
+  font-weight: bold;
+}
+
+/* Styles for the .replied class */
+.replied {
+  color: green;
+  font-weight: bold;
+}
+.h1 {
+  margin-top: 0.8rem;
+}

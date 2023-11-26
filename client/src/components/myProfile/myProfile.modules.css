@@ -1,0 +1,125 @@
+/* Add these styles to adjust the positioning of the forms */
+.myprofilecontainer {
+  display: flex;
+  flex-direction: column; /* Display forms one above the other */
+  align-items: center; /* Center the forms horizontally */
+  padding: 20px;
+  margin: auto;
+  max-width: 900px;
+}
+
+.profileform,
+.passwordform {
+  width: 100%; /* Use full width on mobile */
+  margin-bottom: 20px; /* Add spacing between forms */
+  padding: 20px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Add styling for form headings and descriptions */
+.my_profile {
+  font-size: 25px;
+  margin: 1rem;
+  margin-bottom: 10px;
+
+  text-align: start;
+}
+
+.profiledescription,
+.password-description {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+/* Style input fields */
+.myprofilecontainer input[type='text'],
+.myprofilecontainer input[type='email'],
+.myprofilecontainer input[type='password'] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+/* container buttons */
+.myprofilecontainer button[type='submit'] {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.myprofilecontainer button[type='submit']:hover {
+  background-color: #0056b3;
+}
+
+/* Add responsive styles */
+@media (min-width: 769px) {
+  .my-profile-container {
+    flex-direction: row; /* Display forms side by side */
+    justify-content: space-around; /* Add spacing between forms */
+  }
+
+  .profileform,
+  .passwordform {
+    width: 48%;
+  }
+}
+.updatebutton {
+  color: white;
+  background-color: #0056b3;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  border-radius: 100px;
+  width: 40%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.btn:hover {
+  background-color: black;
+}
+.btn1 {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  font-size: 1.1rem;
+  margin: 1rem;
+  margin-top: 1rem;
+  border-radius: 100px;
+  width: 10%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.btn1:hover {
+  background-color: black;
+}
+.f1 {
+  margin-left: 0.7rem;
+}
+.f1 input {
+  width: 30%;
+}
+.updatepass {
+  margin-left: 0.7rem;
+  width: 30%;
+}
+.newpass {
+  margin-right: 16rem;
+  font-size: 25px;
+  margin-top: 1.1rem;
+  margin-bottom: 1.1rem;
+}

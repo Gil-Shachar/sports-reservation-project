@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 1.9rem;
+  color: #007bff;
+  text-align: center;
+}
+body {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal scrollbar */
+  background-color: rgb(226, 222, 222);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}

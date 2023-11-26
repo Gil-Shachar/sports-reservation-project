@@ -1,0 +1,142 @@
+/* Styles for the table containing orders */
+.orderstable {
+  width: 100%;
+  border-collapse: collapse;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+/* Styles for table header cells */
+.orderstable th {
+  background-color: #111111; /* Background color for table header cells */
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Styles for both table header cells and table data cells */
+.orderstable th,
+.orderstable td {
+  border: 1px solid black; /* Change border style for table cells */
+  text-align: center;
+  padding: 8px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Styles for table rows */
+.orderstable tr {
+  border: 1px solid black;
+  text-align: center;
+  padding: 2px;
+}
+
+/* Styles for the table body */
+.orderstable tbody {
+  text-align: center;
+}
+
+/* Styles for buttons within the table */
+.orderstable button {
+  padding: 8px 12px;
+  margin-right: 4px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Styles for the invite button */
+.inviteBtn {
+  background-color: green;
+  color: white;
+}
+
+.inviteBtn:hover {
+  background-color: black;
+}
+
+/* Styles for the delete order button */
+.deleteOrderBtn {
+  background-color: red;
+  color: white;
+}
+
+.deleteOrderBtn:hover {
+  background-color: black;
+}
+
+/* Styles for the cancel invite button */
+.cancelInviteBtn:hover {
+  background-color: black;
+}
+
+.cancelInviteBtn {
+  background-color: blue;
+  color: white;
+}
+
+/* Styles for the table container's header */
+.container thead {
+  position: sticky;
+  top: 0;
+  background-color: #f7f7f7;
+  z-index: 1;
+}
+.par1 {
+  margin-left: 1.2rem;
+  margin: 1rem;
+}
+/* Styles for the table scroller */
+.order_scroller {
+  overflow: auto;
+  max-height: calc(97.8vh - 200px); /* Adjust the height value as needed */
+  border: 1px solid black;
+  margin-top: 10px;
+}
+.MyOrderH1 {
+  margin-top: 1.3rem;
+  margin-bottom: 1.2rem;
+}
+/* Styles for the My Order button */
+.myorderbtn:hover {
+  background-color: black;
+}
+
+.myorderbtn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  border-radius: 100px;
+  width: 10%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Styles for the decline button */
+.declinebtn:hover {
+  background-color: black;
+}
+
+/* Styles for the approve button */
+.approvebtn:hover {
+  background-color: black;
+}
+
+.declinebtn {
+  background-color: red;
+  color: white;
+}
+
+.approvebtn {
+  background-color: green;
+  color: white;
+}
+
+/* Styles for error messages */
+.error {
+  color: black;
+}
+.dateRangeContainer {
+  width: 50%;
+}

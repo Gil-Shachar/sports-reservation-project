@@ -1,0 +1,42 @@
+/* Styles for the navigation bar */
+.nav {
+  background-color: #333; /* Background color for the navigation bar */
+  color: white; /* Text color for the navigation bar */
+  display: flex; /* Display as a flex container */
+  justify-content: space-between; /* Horizontally space items within the container */
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Vertically align items to the center */
+  height: 60px; /* Set the height of the navigation bar */
+  width: 100vw; /* Set the width to 100% of the viewport width */
+  min-width: 100%; /* Ensure it takes up at least the full width */
+  font-size: 1rem; /* Set the font size to 1rem (16px) */
+}
+
+/* Styles for the unordered list within the navigation bar */
+.nav ul {
+  list-style: none; /* Remove default list styles (bullets) */
+  display: flex; /* Display list items as flex items */
+  justify-content: center; /* Center list items horizontally */
+  align-items: center; /* Center list items vertically */
+}
+
+/* Styles for navigation links */
+.nav a {
+  color: inherit; /* Inherit text color from parent (white) */
+  text-decoration: none; /* Remove underline from links */
+  font-size: 1rem; /* Set the font size to 1rem (16px) */
+  display: flex; /* Display links as flex items */
+  align-items: center; /* Center link content vertically */
+  padding: 1.4rem; /* Add padding around the link content */
+}
+
+/* Styles for list items when hovered over */
+.nav li:hover {
+  background-color: #777; /* Change background color on hover to a darker shade */
+  transition: 0.4s; /* Add a smooth transition effect */
+}
+
+/* Styles for list items except the last one to add right margin */
+.nav ul > :not(:last-child) {
+  margin-right: 1rem; /* Add a right margin to separate list items */
+}
